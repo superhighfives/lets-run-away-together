@@ -10,3 +10,10 @@ twitter_username: superhighfives
 github_username:  superhighfives
 
 markdown: kramdown
+exclude: [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "gulpfile.js",
+  "package.json"
+]
