@@ -1,0 +1,16 @@
+$color-white                   : #fff;
+$color-black                   : #000;
+$color-dark-grey               : #222;
+$color-mid-grey                : #444;
+$color-light-grey              : #999;
+$color-off-white               : #efefef;
+$color-salmon                  : #f36a67;
+
+// Overriding Bootstrap
+$brand-primary                 : $color-salmon;
+$link-hover-color              : $color-salmon;
+
+$font-stack                    : "Maison Neue Mono", sans-serif;
+
+$background-color              : $color-off-white;
+$text-color                    : $color-dark-grey;

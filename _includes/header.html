@@ -1,5 +1,11 @@
-{{ site.title }}
+<header class="site-header">
+  <h1 class="site-header__logo">
+    <a href="{{ baseurl }}">{{ site.title }}</a>
+  </h1>
 
-{% for page in site.pages %}
-  {% if page.title %}{{ page.title }}{% endif %}
-{% endfor %}
+  <nav class="site-header__nav">
+    {% for page in site.pages %}
+      {% if page.title %}<a href="page.url">{{ page.title }}</a>{% endif %}
+    {% endfor %}
+  </nav>
+</header>

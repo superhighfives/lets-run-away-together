@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Maison Neue Mono';
+  src: url('fonts/maisonneue-mono-webfont.eot');
+  src: url('fonts/maisonneue-mono-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/maisonneue-mono-webfont.woff2') format('woff2'),
+       url('fonts/maisonneue-mono-webfont.woff') format('woff'),
+       url('fonts/maisonneue-mono-webfont.ttf') format('truetype'),
+       url('fonts/maisonneue-mono-webfont.svg#maisonneue_mono') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maison Neue Mono';
+  src: url('fonts/maisonneue-mono-italic-webfont.eot');
+  src: url('fonts/maisonneue-mono-italic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/maisonneue-mono-italic-webfont.woff2') format('woff2'),
+       url('fonts/maisonneue-mono-italic-webfont.woff') format('woff'),
+       url('fonts/maisonneue-mono-italic-webfont.ttf') format('truetype'),
+       url('fonts/maisonneue-mono-italic-webfont.svg#maisonneue_mono_italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}

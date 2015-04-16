@@ -18,4 +18,5 @@ tmp/*
 .jekyll-metadata
 /vendor
 
+css/fonts/
 node_modules

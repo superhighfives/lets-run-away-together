@@ -1,3 +1,19 @@
-{{ site.title }}
-{{ site.description }}
-<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+<footer class="site-footer">
+  <div class="row">
+    <div class="col-md-4">
+      <h1 class="site-footer__logo">{{ site.title }}</h1>
+    </div>
+    <div class="col-md-4">
+      <p>{{ site.description }}</p>
+    </div>
+    <div class="col-md-4">
+      <ul class="list-inline">
+        <li><a class="site-footer__symbol" symbol="twitterbird" href="#">Twitter</a></li>
+        <li><a class="site-footer__symbol" symbol="facebook" href="#" >Facebook</a></li>
+        <li><a class="site-footer__symbol" symbol="email" href="mailto:{{ site.email }}">Email</a></li>
+        <li><a class="site-footer__symbol" symbol="rss" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
+      </ul>
+    </div>
+  </div>
+  
+</footer>

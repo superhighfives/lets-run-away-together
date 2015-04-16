@@ -1,0 +1,17 @@
+.site-footer {
+  padding: 4em 0;
+  .site-footer__logo {
+    @include type(12);
+    color: $color-light-grey;
+  }
+  .site-footer__symbol {
+    &:before {
+      @extend .symbol;
+      content: attr(symbol);
+      font-size: 2em;
+    }
+  }
+  p {
+    color: $color-light-grey;
+  }
+}
