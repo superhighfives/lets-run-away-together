@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ólafur Arnalds - Harpa, Reykjavík"
-categories: music
+categories: gig
 banner: olafur-arnalds-at-iceland-airwaves-hero.jpg
 meta: Originally posted in October, 2013, at Iceland Airwaves.
 ---
