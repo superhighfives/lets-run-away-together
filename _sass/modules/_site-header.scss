@@ -1,6 +1,11 @@
 .site-header {
-  padding: 4em 0;
+  @extend .block;
   .site-header__logo {
+    @media (max-width: $screen-xs-max) {
+      margin-bottom: 0;
+    }
+  }
+  .site-header__link {
     @include type(12);
   }
 }

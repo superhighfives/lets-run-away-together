@@ -26,30 +26,32 @@ h1, h2, h3, h4, h5, h6, hgroup,
 ul, ol, dl,
 blockquote, p, address,
 table, fieldset,
-figure, pre {
+figure, pre, date {
   margin: 0;
-  margin-bottom: 24px;
+  margin-bottom: 2em;
+  @include type(12);
+  line-height: 1.5em;
+}
+
+hgroup {
+  h1, h2, h3, h4, h5, h6,
+  date {
+    font-size: 1em;
+  }
 }
 
 hr {
-  margin: 24px 0;
+  margin: 2em 0;
   border-top: 2px solid $color-off-white;
 }
 
 p {
-  @include type(12);
-  line-height: 1.5em;
   &.subtle {
     color: $color-mid-grey;
   }
-  &.last {
+  &.last, &:last-child {
     margin-bottom: 0;
   }
-}
-
-ul {
-  @include type(12);
-  line-height: 1.5em;
 }
 
 a {

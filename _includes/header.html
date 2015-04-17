@@ -3,9 +3,9 @@
     <a href="{{ baseurl }}">{{ site.title }}</a>
   </h1>
 
-  <nav class="site-header__nav">
+  <nav class="site-header__nav hidden-xs">
     {% for page in site.pages %}
-      {% if page.title %}<a href="page.url">{{ page.title }}</a>{% endif %}
+      {% if page.title %}<a class="site-header__link" href="{{ page.url }}">{{ page.title }}</a>{% endif %}
     {% endfor %}
   </nav>
 </header>

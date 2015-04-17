@@ -1,11 +1,12 @@
 .posts {
-  padding: 4em 0;
+  @extend .block;
+  margin-bottom: 0;
   .posts__item {
-    margin: 1em 0; 
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    margin-bottom: 2em;
   }
   .posts__title {
     -webkit-box-flex: 1;
@@ -13,7 +14,43 @@
     -ms-flex: 1;
     flex: 1;
   }
-  .posts__date {
+  .posts__date,
+  .posts__categories {
     color: $color-light-grey;
+    padding-left: 1em;
+  }
+  .posts__categories {
+    text-transform: capitalize;
+  }
+}
+
+.post {
+  @extend .block;
+  .post__title {
+    color: $color-white;
+    background: $brand-primary;
+    display: inline-block;
+    padding: 2px 4px;
+    margin-bottom: 0;
+  }
+  .post__date,
+  .post__meta {
+    color: $color-light-grey;
+  }
+  .post__content {
+    h1, h2, h3, h4, h5, h6 {
+      color: $brand-primary;
+    }
+    .footnotes {
+      color: $color-light-grey;
+      ol {
+        @include type(10);
+        padding-left: 0;
+        list-style-position: inside;
+      }
+      p {
+        font-size: 1em;
+      }
+    }
   }
 }

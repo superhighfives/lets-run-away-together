@@ -1,18 +1,20 @@
 <footer class="site-footer">
   <div class="row">
-    <div class="col-md-4">
-      <h1 class="site-footer__logo">{{ site.title }}</h1>
+    <div class="col-md-6">
+      <p><span class="site-footer__logo">{{ site.title }}</span> <span class="site-footer__description">{{ site.description }}</span></p>
     </div>
-    <div class="col-md-4">
-      <p>{{ site.description }}</p>
-    </div>
-    <div class="col-md-4">
-      <ul class="list-inline">
-        <li><a class="site-footer__symbol" symbol="twitterbird" href="#">Twitter</a></li>
-        <li><a class="site-footer__symbol" symbol="facebook" href="#" >Facebook</a></li>
-        <li><a class="site-footer__symbol" symbol="email" href="mailto:{{ site.email }}">Email</a></li>
-        <li><a class="site-footer__symbol" symbol="rss" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
-      </ul>
+    <div class="col-md-6">
+      <div class="site-footer__nav">
+        <ul class="list-inline">
+          {% for page in site.pages %}
+            {% if page.title %}<li class="visible-xs-inline"><a class="site-header__link" href="{{ page.url }}">{{ page.title }}</a></li>{% endif %}
+          {% endfor %}
+          <li><a class="site-footer__symbol" symbol="twitterbird" href="#">Twitter</a></li>
+          <li><a class="site-footer__symbol" symbol="facebook" href="#" >Facebook</a></li>
+          <li><a class="site-footer__symbol" symbol="email" href="mailto:{{ site.email }}">Email</a></li>
+          <li><a class="site-footer__symbol" symbol="rss" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
+        </ul>
+      </div>
     </div>
   </div>
   

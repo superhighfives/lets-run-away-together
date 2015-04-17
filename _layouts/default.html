@@ -3,6 +3,9 @@
   {% include head.html %}
   
   <body>
+
+    {% if page.banner %}<img class="image-full" src="{{ site.baseurl }}/assets/images/{{ page.banner }}" />{% endif %}
+
     <div class="flex-content">
       <div class="container">
         <div class="row">

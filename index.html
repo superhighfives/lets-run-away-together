@@ -2,13 +2,16 @@
 layout: default
 ---
 
-<ul class="posts list-unstyled">
-  {% for post in site.posts %}
-    <li>
-      <a class="posts__item" href="{{ post.url | prepend: site.baseurl }}">
-        <span class="posts__title">{{ post.title }}</span>
-        <span class="posts__date">{{ post.date | date: "%b %-d, %Y" }}</span>
-      </a>
-    </li>
-  {% endfor %}
-</ul>
+<div class="posts">
+  <ul class="list-unstyled">
+    {% for post in site.posts %}
+      <li>
+        <a class="posts__item" href="{{ post.url | prepend: site.baseurl }}">
+          <span class="posts__title">{{ post.title }}</span>
+          <span class="posts__categories">{{ post.categories }}</span>
+          <span class="posts__date">{{ post.date | date: "%d/%m/%Y" }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

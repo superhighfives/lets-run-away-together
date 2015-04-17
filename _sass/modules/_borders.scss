@@ -8,13 +8,13 @@ html:before, html:after, body:before ,body:after {
 
 html {
   &:before {
-    height: 10px;
+    height: 8px;
     left: 0;
     right: 0;
     top: 0;
   }
   &:after {
-    width: 10px;
+    width: 8px;
     top: 0;
     right: 0;
     bottom: 0;
@@ -23,13 +23,13 @@ html {
 
 body {
   &:before {
-    height: 10px;
+    height: 8px;
     right: 0;
     bottom: 0;
     left: 0;
   }
   &:after {
-    width: 10px;
+    width: 8px;
     top: 0;
     bottom: 0;
     left: 0;

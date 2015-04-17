@@ -1,14 +1,22 @@
 .site-footer {
-  padding: 4em 0;
+  @extend .block;
   .site-footer__logo {
-    @include type(12);
-    color: $color-light-grey;
+    display: inline;
+    color: $brand-primary;
   }
   .site-footer__symbol {
     &:before {
       @extend .symbol;
       content: attr(symbol);
-      font-size: 2em;
+      font-size: 1.5em;
+    }
+  }
+  .site-footer__nav {
+    @media (max-width: $screen-sm-max) {
+      padding-top: 1em;
+    }
+    ul {
+      margin-bottom: 0;
     }
   }
   p {
