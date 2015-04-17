@@ -41,6 +41,9 @@
     h1, h2, h3, h4, h5, h6 {
       color: $brand-primary;
     }
+    strong {
+      background: darken($color-off-white, 5%);
+    }
     .footnotes {
       color: $color-light-grey;
       ol {
