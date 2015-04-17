@@ -4,8 +4,8 @@ description: >
   An art / design / music blog based somewhere between London and Melbourne
 baseurl: "/lets-run-away-together"
 url: "http://letsrunawaytogether.com"
-twitter_username: superhighfives
-github_username:  superhighfives
+twitter_username: lratblog
+facebook_username:  letsrunawaytogetherblog
 
 permalink: /:title
 
