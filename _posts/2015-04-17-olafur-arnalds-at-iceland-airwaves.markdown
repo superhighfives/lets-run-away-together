@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Ólafur Arnalds - Harpa, Reykjavík"
+title:  "Ólafur Arnalds at Iceland Airwaves"
 categories: gig
 banner: olafur-arnalds-at-iceland-airwaves-hero.jpg
-meta: Originally posted in October, 2013, at Iceland Airwaves.
+meta: A stunning performance at Harpa, Reykjavík.
 ---
+
 A couple of years ago I had my first experience of anxiety. I was pretty confident I was having a heart attack, but at some point, hiding in the bathroom of an upmarket Adelaide restaurant, I realised I probably wasn't going to die. It just felt like I would.[^1]
 
 To me, the music of [Ólafur Arnalds](http://olafurarnalds.com/) is the opposite of that feeling. The meticulously arranged neo-classical sound evident on his last record [For Now I Am Winter](https://soundcloud.com/olafur-arnalds/sets/for-now-i-am-winter) feels a bit like floating in the middle of the ocean on a starry night. In the vein of Iceland's second most famous export after [Björk](http://bjork.com/), [Sigur Rós](http://www.sigur-ros.co.uk/), Arnalds' sound evokes a deep sense of longing. The juxtaposition between his classical heritage and his electronic leanings draws from the best of both words, and his flair for the melodramatic makes [For Now I Am Winter](https://soundcloud.com/olafur-arnalds/sets/for-now-i-am-winter) one of my favourite releases of 2013.

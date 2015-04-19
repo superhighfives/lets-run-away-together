@@ -5,12 +5,17 @@ layout: default
 <div class="posts">
   <ul class="list-unstyled">
     {% for post in site.posts %}
-      <li>
-        <a class="posts__item" href="{{ post.url | prepend: site.baseurl }}">
-          <span class="posts__title">{{ post.title }}</span>
+      <li class="posts__item">
+        <a class="posts__link" href="{{ post.url | prepend: site.baseurl }}">
+          <span class="posts__title">{% if post.tags contains 'draft' %}DRAFT: {% endif %}{{ post.title }}</span>
+        </a>
+        <div class="posts__image" style="background-image: url({{ site.baseurl }}/assets/images/{{ post.banner }})"></div>
+        <div class="posts__details">
+          <span class="posts__meta">{{ post.meta }}</span>
+          <span class="posts__wordcount">{{ post.content | number_of_words }} words</span>
           <span class="posts__categories">{{ post.categories }}</span>
           <span class="posts__date">{{ post.date | date: "%d/%m/%Y" }}</span>
-        </a>
+        </div>
       </li>
     {% endfor %}
   </ul>

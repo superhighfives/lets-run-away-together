@@ -59,8 +59,10 @@ a {
 
 // hide flash of unstyled text
 html {
-  body {
-    opacity: 1;
+  &.wf-active {
+    body {
+      opacity: 1;
+    }
   }
   &.wf-loading {
     body {

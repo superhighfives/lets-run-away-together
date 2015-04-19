@@ -11,7 +11,7 @@ var messages = {
  */
 gulp.task('jekyll-build', function (done) {
   browserSync.notify(messages.jekyllBuild);
-  return cp.spawn('jekyll', ['build', '--config', ['_config.yml', '_config_dev.yml']], {stdio: 'inherit'})
+  return cp.spawn('jekyll', ['build', '--drafts', '--config', ['_config.yml', '_config_dev.yml']], {stdio: 'inherit'})
   .on('close', done);
 });
 
@@ -40,7 +40,7 @@ gulp.task('browser-sync', ['jekyll-build'], function() {
  * if you add folder for pages, collection or datas, add them to this list
  */
 gulp.task('watch', function () {
- gulp.watch(['./*', '_layouts/*', '_includes/*', '_posts/*', '_sass/**/*', '_assets/**/*', 'css/*'], ['jekyll-rebuild']);
+ gulp.watch(['./*', '_layouts/*', '_includes/*', '_posts/*', '_drafts/*', '_sass/**/*', '_assets/**/*', 'css/*'], ['jekyll-rebuild']);
 });
 
 /**
