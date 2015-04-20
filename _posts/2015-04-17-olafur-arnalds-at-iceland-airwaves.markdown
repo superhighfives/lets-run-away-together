@@ -3,7 +3,7 @@ layout: post
 title:  "Ólafur Arnalds at Iceland Airwaves"
 categories: gig
 banner: olafur-arnalds-at-iceland-airwaves-hero.jpg
-meta: A stunning performance at Harpa, Reykjavík.
+meta: A stunning performance at Harpa in Reykjavík.
 ---
 
 A couple of years ago I had my first experience of anxiety. I was pretty confident I was having a heart attack, but at some point, hiding in the bathroom of an upmarket Adelaide restaurant, I realised I probably wasn't going to die. It just felt like I would.[^1]

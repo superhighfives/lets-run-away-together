@@ -3,8 +3,10 @@ layout: post
 title:  Highasakite - Lover, Where Do You Live?
 categories: music
 banner: highasakite-lover-where-do-you-live-hero.jpg
-meta: '"It would be nice to come home, I guess. To a couch, and a stove, and a backyard."'
+meta: Lush, original, striking indie pop.
 ---
+
+"It would be nice to come home, I guess. To a couch, and a stove, and a backyard."
 
 Gosh I'm obsessed with Norwegian band **Highasakite** and lead vocalist Ingrid Helene Håvik. Her performances are spellbinding, blending incredible control with a keenly felt emotional range.
 
