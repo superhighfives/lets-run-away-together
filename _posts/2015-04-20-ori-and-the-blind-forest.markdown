@@ -12,5 +12,5 @@ I remember, when I was a kid, how much joy video games brought me. My friends an
 
 Stop what you're doing [and get it][steam].
 
-[ori]: http://google.com/
+[ori]: http://oriblindforest.com/
 [steam]: http://store.steampowered.com/app/261570/
