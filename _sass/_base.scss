@@ -56,17 +56,3 @@ a {
     text-decoration: none;
   }
 }
-
-// hide flash of unstyled text
-html {
-  &.wf-active {
-    body {
-      opacity: 1;
-    }
-  }
-  &.wf-loading {
-    body {
-      opacity: 0;
-    }
-  }
-}
