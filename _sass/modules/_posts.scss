@@ -110,7 +110,7 @@
     @include type(10);
     color: $color-light-grey;
     strong {
-      border-bottom: 2px solid $color-light-grey;
+      background: darken($color-off-white, 5%);
     }
   }
 }
