@@ -13,5 +13,5 @@ layout: default
   <div class="post__content">
     {{ content }}
   </div>
-  {% if page.categories %}<p class="post__categories">Filed under {{ page.categories | array_to_sentence_string }}</p>{% endif %}
+  {% if page.categories %}<p class="post__categories">Filed under <strong>{{ page.categories | array_to_sentence_string }}</strong>{% if page.tags %} and tagged <strong>{{ page.tags | array_to_sentence_string }}</strong>{% endif %}.</p>{% endif %}
 </div>

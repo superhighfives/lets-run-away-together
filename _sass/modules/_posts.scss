@@ -109,5 +109,8 @@
   .post__categories {
     @include type(10);
     color: $color-light-grey;
+    strong {
+      border-bottom: 2px solid $color-light-grey;
+    }
   }
 }
