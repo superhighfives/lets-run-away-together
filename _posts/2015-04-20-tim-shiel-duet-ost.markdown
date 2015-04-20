@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tim Shiel - Duet OST"
-categories: music
+categories: feature, music
 banner: tim-shiel-duet-ost-hero.jpg
 meta: A love letter to Tim Shiel under the guise of a review.
 ---

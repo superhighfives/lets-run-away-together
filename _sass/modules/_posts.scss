@@ -106,4 +106,8 @@
       }
     }
   }
+  .post__categories {
+    @include type(10);
+    color: $color-light-grey;
+  }
 }

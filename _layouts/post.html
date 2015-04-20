@@ -13,4 +13,6 @@ layout: default
   <div class="post__content">
     {{ content }}
   </div>
+
+  {% if page.categories %}<p class="post__categories">Filed under {{ page.categories | array_to_sentence_string }}</p>{% endif %}
 </div>
