@@ -15,7 +15,7 @@ layout: null
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>
-            {{% if post.banner %}}<p><img src="{{ site.url }}/assets/images/{{ post.banner }}" /></p>{{% end if }}
+            {{% if post.banner %}}&lt;img src=&apos;{{ site.url }}/assets/images/{{ post.banner }}&apos; /&gt;{{% end if }}
             {{% if post.meta %}}{{ post.meta | markdownify | xml_escape }}{{% end if }}
             {{ post.content | xml_escape }}
         </description>
