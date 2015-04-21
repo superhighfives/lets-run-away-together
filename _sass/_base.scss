@@ -42,7 +42,7 @@ p {
   &.subtle {
     color: $color-mid-grey;
   }
-  &.last, &:last-child {
+  &.last {
     margin-bottom: 0;
   }
 }

@@ -6,10 +6,10 @@ layout: default
   <ul class="list-unstyled">
     {% for post in site.posts %}
       <li class="posts__item">
-        <a class="posts__link" href="{{ post.url | prepend: site.baseurl }}">
+        <a class="posts__link {% if post.banner %}posts__link--has-banner{% endif %}" href="{{ post.url | prepend: site.baseurl }}">
           <span class="posts__title">{% if post.tags contains 'draft' %}DRAFT: {% endif %}{{ post.title }}</span>
         </a>
-        <div class="posts__image" style="background-image: url({{ site.baseurl }}/assets/images/{{ post.banner }})"></div>
+        {% if post.banner %}<div class="posts__image" style="background-image: url({{ site.baseurl }}/assets/images/{{ post.banner }})"></div>{% endif %}
         <div class="posts__details">
           <span class="posts__meta">{{ post.meta }}</span>
           <span class="posts__wordcount">{{ post.content | number_of_words }} words</span>
