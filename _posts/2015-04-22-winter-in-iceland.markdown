@@ -3,7 +3,6 @@ layout: post
 title:  "Winter in Iceland"
 categories: photography
 meta: "Taken in Hveragerði, South West Iceland, around Christmas 2014."
-tags: draft
 ---
 
 On the 29th of May, 2008, [a hot spring appeared in Hveragerði][hveragerdi] following an earthquake. During winter it cuts a line through the icy mountain range, and during Christmas 2014 we hiked alongside it to swim in the hot water high above the ocean.
