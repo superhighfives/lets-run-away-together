@@ -9,15 +9,15 @@ On the 29th of May, 2008, [a hot spring appeared in Hveragerði][hveragerdi] fol
 
 It was awesome.
 
-![Iceland](/assets/images/winter-in-iceland-01.jpg)
+![So](/assets/images/winter-in-iceland-01.jpg)
 
-![Iceland](/assets/images/winter-in-iceland-02.jpg)
+![So](/assets/images/winter-in-iceland-02.jpg)
 
-![Iceland](/assets/images/winter-in-iceland-03.jpg)
+![Pretty](/assets/images/winter-in-iceland-03.jpg)
 
-![Iceland](/assets/images/winter-in-iceland-04.jpg)
+![Checking no one fell off the mountain](/assets/images/winter-in-iceland-04.jpg)
 
-![Iceland](/assets/images/winter-in-iceland-05.jpg)
+![Look at that stupid face](/assets/images/winter-in-iceland-05.jpg)
 
 The woolen beardcap is by [Vík Prjónsdóttir][vik-prjonsdottir], one of my favourite designers, who use Icelandic wool in all their creations. I could not recommend them, and the beardcap, more highly.
 
