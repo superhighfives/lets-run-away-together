@@ -9,6 +9,13 @@ facebook_username:  letsrunawaytogetherblog
 
 permalink: /:title
 
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      meta_display: true
+
 markdown: kramdown
 exclude: [
   "Gemfile",
