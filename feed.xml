@@ -15,8 +15,9 @@ layout: null
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>
-            {{% if post.banner %}}&lt;img src=&apos;{{ site.url }}/assets/images/{{ post.banner }}&apos; /&gt;{{% end if }}
-            {{% if post.meta %}}{{ post.meta | markdownify | xml_escape }}{{% end if }}
+            {% if post.banner %}&lt;img src=&apos;{{ site.url }}/assets/images/{{ post.banner }}&apos; /&gt;{% endif %}
+            {% if post.hero %}&lt;img src=&apos;{{ site.url }}/assets/images/{{ post.hero }}&apos; /&gt;{% endif %}
+            {% if post.meta %}{{ post.meta | markdownify | xml_escape }}{% endif %}
             {{ post.content | xml_escape }}
         </description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
