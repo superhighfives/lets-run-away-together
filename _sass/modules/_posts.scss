@@ -61,8 +61,17 @@
     }
   }
 
+  .posts__wordcount {
+    &:before {
+      content: "("
+    }
+    &:after {
+      content: ")"
+    }
+    color: $color-light-grey;
+  }
+
   .posts__date,
-  .posts__wordcount,
   .posts__categories {
     @media (min-width: $screen-sm-min) {
       margin-left: 2em;
