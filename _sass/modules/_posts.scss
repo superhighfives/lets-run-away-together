@@ -5,17 +5,6 @@
     position: relative;
   }
   .posts__image {
-    &:before {
-      content: "";
-      position: absolute;
-      top: 2px;
-      right: 2px;
-      bottom: 2px;
-      left: 2px;
-      background: rgba($color-black, 0.5);
-      opacity: 0;
-      transition: opacity 0.5s;
-    }
     position: absolute;
     top: -10px;
     right: -10px;
@@ -24,6 +13,8 @@
     z-index: -1;
     opacity: 0;
     transition: opacity 0.3s;
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
   }
   .posts__link {
     display: block;
@@ -35,9 +26,6 @@
     &.posts__link--has-banner {
       &:hover ~ .posts__image {
         opacity: 1;
-        &:before {
-          opacity: 1;
-        }
       }
       &:hover ~ .posts__details,
       &:hover ~ .posts__details .posts__meta,
