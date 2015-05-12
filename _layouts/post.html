@@ -13,5 +13,25 @@ layout: default
   <div class="post__content">
     {{ content }}
   </div>
-  {% if page.categories %}<p class="post__categories">Filed under <strong>{{ page.categories | array_to_sentence_string }}</strong>{% unless page.tags == empty %} and tagged <strong>{{ page.tags | array_to_sentence_string }}</strong>{% endunless %}.</p>{% endif %}
+  {% if page.categories %}
+    <p class="post__categories">Filed under <strong>{{ page.categories | array_to_sentence_string }}</strong>{% unless page.tags == empty %} and tagged <strong>{{ page.tags | array_to_sentence_string }}</strong>{% endunless %}.</p>
+  {% endif %}
+  {% if page.previous.url or page.next.url %}
+    <ul class="list-inline paginator">
+      {% if page.previous.url %}
+        <li class="paginator__item--previous">
+          <a href="{{ page.previous.url }}" symbol="&#171;">
+            Previously, {{ page.previous.title }}
+          </a>
+        </li>
+      {% endif %}
+      {% if page.next.url %}
+        <li class="paginator__item--next">
+          <a href="{{ page.next.url }}" symbol="&#187;">
+            Next up, {{ page.next.title }}
+          </a>
+        </li>
+      {% endif %}
+    </ul>
+  {% endif %}
 </div>
