@@ -163,6 +163,12 @@
     .paginator__item--previous,
     .paginator__item--next {
       @extend .paginator__item;
+      @media (max-width: $screen-xs-max) {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+      }
     }
     .paginator__item--previous {
       padding-right: 1em;
