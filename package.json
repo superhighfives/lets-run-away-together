@@ -4,6 +4,6 @@
     "gulp": "^3.7"
   },
   "dependencies": {
-    "bootstrap": "^3.3.4"
+    "bootstrap-sass": "latest"
   }
 }
