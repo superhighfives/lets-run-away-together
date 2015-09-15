@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Antony And The Johnson's On Jools Holland"
-categories: video
+categories: music
 meta: "Antony Hegarty just has the most sublime, emotive, overwhelming voice."
 ---
 
