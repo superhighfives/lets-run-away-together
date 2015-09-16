@@ -2,7 +2,7 @@
 layout: post
 title: "Life Is Better Blonde - Mine"
 categories: music
-meta: "Gah, how is everything The Smith Street Band do this good?"
+meta: "Or how to make me miss Japan in four minutes or less"
 ---
 
 Well, Australia is pumping out some amazing music lately, and **Mine** from **Life Is Better Blonde** is no exception.
