@@ -9,8 +9,6 @@
           {% for page in site.pages %}
             {% if page.title %}<li class="visible-xs-inline"><a class="site-header__link" href="{{ page.url }}">{{ page.title }}</a></li>{% endif %}
           {% endfor %}
-          <li><a class="site-footer__symbol" symbol="twitterbird" href="http://twitter.com/{{ site.twitter_username }}">Twitter</a></li>
-          <li><a class="site-footer__symbol" symbol="facebook" href="http://facebook.com/{{ site.facebook_username }}" >Facebook</a></li>
           <li><a class="site-footer__symbol" symbol="email" href="mailto:{{ site.email }}">Email</a></li>
           <li><a class="site-footer__symbol" symbol="rss" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
         </ul>
