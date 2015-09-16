@@ -5,7 +5,7 @@ categories: music
 meta: "One of Melbourne's finest bands have called it a day."
 ---
 
-They were a huge influence in the [Brightly](http://wearebrightly.com) debut [Beginnings & Endings](http://music.wearebrightly.com/album/beginnings-endings), and have produced some of the best electronica out of Australia.
+They were a huge influence on the [Brightly](http://wearebrightly.com) debut [Beginnings & Endings](http://music.wearebrightly.com/album/beginnings-endings), and have produced some of the best electronica out of Australia.
 
 If you haven't heard **I'lls**, I highly recommend you download everything they have ever touched. It is solid gold. You can find it all [on their Bandcamp](http://illsmusic.bandcamp.com/).
 
