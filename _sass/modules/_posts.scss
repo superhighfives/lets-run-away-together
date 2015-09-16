@@ -98,9 +98,12 @@
     padding: 2px 4px;
     margin-bottom: 0;
   }
-  .post__date,
-  .post__meta {
+  .post__date {
     color: $color-light-grey;
+  }
+  .post__meta {
+    background: darken($color-off-white, 5%);
+    padding: 0.5em;
   }
   .post__content {
     h1, h2, h3, h4, h5, h6 {
