@@ -2,7 +2,7 @@
 
 My personal artsy blog on music and culture and pretty pictures and stuff. Built with [Jekyll](http://jekyllrb.com/) and deployed directly to [Github Pages](https://pages.github.com/) via the `gh-pages` branch.
 
-I focussed on working within the limitations of Jekyll and Github Pages, which means no compilation step before deployment, xand no fancy features (like autoprefixer). Ultimately, I wanted to be able to make changes direct to Github, without needing to compile it locally.
+I focussed on working within the limitations of Jekyll and Github Pages, which means no compilation step before deployment, and no fancy features (like autoprefixer). Ultimately, I wanted to be able to make changes direct to Github, without needing to compile it locally.
 
 Anything non-compilation on the dev side is fine though, which is why Browsersync features. Because it's awesome.
 
