@@ -16,16 +16,16 @@ defaults:
     meta_display: true
 prose:
   rooturl: '_posts'
-metadata:
-  _posts:
-    - name: "layout"
-      field:
-        element: "hidden"
-        value: "post"
-    - name: "meta"
-      field:
-        element: "text"
-        value: "So, what's the summary of the post?"
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "meta"
+        field:
+          element: "text"
+          value: "So, what's the summary of the post?"
 markdown: kramdown
 exclude:
 - Gemfile
