@@ -27,7 +27,8 @@ prose:
       - name: "meta"
         field:
           element: "text"
-          value: "So, what's the summary of the post?"
+          label: "Subtitle"
+          placeholder: "So, what is the summary of the post?"
 markdown: kramdown
 exclude:
 - Gemfile
