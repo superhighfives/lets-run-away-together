@@ -1,26 +1,21 @@
+---
 title: Let's Run Away Together
 email: hi@charliegleason.com
-description: >
+description: |
   An art / design / music blog based somewhere between London and Melbourne.
-baseurl: ""
-url: "http://letsrunawaytogether.com"
-twitter_username: lratblog
-facebook_username:  letsrunawaytogetherblog
-
+baseurl: ''
+url: http://letsrunawaytogether.com
 permalink: /:title
-
 defaults:
-  -
-    scope:
-      type: "posts"
-    values:
-      meta_display: true
-
+- scope:
+    type: posts
+  values:
+    layout: post
+    meta_display: true
 markdown: kramdown
-exclude: [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "gulpfile.js",
-  "package.json"
-]
+exclude:
+- Gemfile
+- Gemfile.lock
+- node_modules
+- gulpfile.js
+- package.json

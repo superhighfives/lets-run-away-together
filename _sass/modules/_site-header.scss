@@ -4,6 +4,14 @@
     @media (max-width: $screen-xs-max) {
       margin-bottom: 0;
     }
+    color: $color-white;
+    background: $brand-primary;
+    display: inline-block;
+    padding: 2px 6px;
+    a {
+      color: #fff;
+      margin-bottom: 0;
+    }
   }
   .site-header__link {
     @include type(12);

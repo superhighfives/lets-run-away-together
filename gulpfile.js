@@ -1,6 +1,7 @@
 var gulp        = require('gulp');
 var browserSync = require('browser-sync');
 var cp          = require('child_process');
+var hygienist   = require('hygienist-middleware');
 
 var messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -31,6 +32,7 @@ gulp.task('browser-sync', ['jekyll-build'], function() {
     open: false,
     server: {
       baseDir: '_site',
+      middleware: hygienist('_site')
     }
   });
 });

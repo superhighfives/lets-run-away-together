@@ -2,6 +2,7 @@ body {
   background: $background-color;
   color: $text-color;
   @extend %type;
+  font-size: 18px;
 }
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {

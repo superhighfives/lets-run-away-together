@@ -2,10 +2,4 @@
   <h1 class="site-header__logo">
     <a href="{{ site.baseurl }}/">{{ site.title }}</a>
   </h1>
-
-  <nav class="site-header__nav hidden-xs">
-    {% for page in site.pages %}
-      {% if page.title %}<a class="site-header__link" href="{{ page.url }}">{{ page.title }}</a>{% endif %}
-    {% endfor %}
-  </nav>
 </header>

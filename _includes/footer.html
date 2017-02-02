@@ -7,7 +7,7 @@
       <div class="site-footer__nav">
         <ul class="list-inline">
           {% for page in site.pages %}
-            {% if page.title %}<li class="visible-xs-inline"><a class="site-header__link" href="{{ page.url }}">{{ page.title }}</a></li>{% endif %}
+            {% if page.title %}<li><a class="site-header__link" href="{{ page.url }}">{{ page.title }}</a></li>{% endif %}
           {% endfor %}
           <li><a class="site-footer__symbol" symbol="email" href="mailto:{{ site.email }}">Email</a></li>
           <li><a class="site-footer__symbol" symbol="rss" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
@@ -15,5 +15,5 @@
       </div>
     </div>
   </div>
-  
+
 </footer>
