@@ -34,6 +34,14 @@ prose:
           element: "text"
           label: "Subtitle"
           placeholder: "So, what is the summary of the post?"
+      - name: "categories"
+        field:
+          element: "text"
+          label: "Categories"
+      - name: "tags"
+        field:
+          element: "text"
+          label: "Tags"
 markdown: kramdown
 exclude:
 - Gemfile
