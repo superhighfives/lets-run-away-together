@@ -4,13 +4,15 @@ email: hi@charliegleason.com
 description: |
   An art / design / music blog based somewhere between London and Melbourne.
 baseurl: ''
-url: http://letsrunawaytogether.com
+url: https://letsrunawaytogether.com
 permalink: /:title
 defaults:
 - scope:
     type: posts
   values:
     layout: post
+    meta: "Enter your subtitle"
+    categories: "N/A"
     meta_display: true
 markdown: kramdown
 exclude:
