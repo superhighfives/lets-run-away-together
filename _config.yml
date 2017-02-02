@@ -44,6 +44,16 @@ prose:
           element: "text"
           label: "Tags"
           placeholder: "feature"
+      - name: "banner"
+        field:
+          element: "text"
+          label: "Banner"
+          placeholder: "highasakite-lover-where-do-you-live-hero.jpg"
+      - name: "hero"
+        field:
+          element: "text"
+          label: "Hero"
+          placeholder: "my-lovely-addiction-hero.jpg"
 markdown: kramdown
 exclude:
 - Gemfile
