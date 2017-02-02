@@ -24,6 +24,11 @@ prose:
         field:
           element: "hidden"
           value: "post"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published?"
+          value: true
       - name: "meta_display"
         field:
           element: "checkbox"
