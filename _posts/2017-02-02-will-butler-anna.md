@@ -1,7 +1,7 @@
 ---
 layout: post
 meta_display: true
-published: false
+published: true
 title: Will Butler - Anna
 meta: How did I miss this slice of pop magic?
 categories: music
