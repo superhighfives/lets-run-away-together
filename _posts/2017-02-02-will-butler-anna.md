@@ -4,10 +4,8 @@ meta_display: true
 published: false
 title: Will Butler - Anna
 meta: How did I miss this slice of pop magic?
-categories: ''
-tags: ''
-banner: ''
-hero: ''
+categories: music
+hero: will-butler-anna.jpg
 ---
 I'm pretty sure **Emma Stone** is the very, very best of us. Also, note to self, buy sailor suit.
 
