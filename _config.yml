@@ -17,7 +17,7 @@ defaults:
 prose:
   rooturl: '_posts'
   siteurl: 'https://letsrunawaytogether.com'
-  media: 'media'
+  media: 'assets/images'
   metadata:
     _posts:
       - name: "layout"
