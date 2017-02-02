@@ -29,11 +29,16 @@ prose:
           element: "checkbox"
           label: "Display the subtitle?"
           value: true
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "What is the title of the post?"
       - name: "meta"
         field:
           element: "text"
           label: "Subtitle"
-          placeholder: "So, what is the summary of the post?"
+          placeholder: "And what is the summary of the post?"
       - name: "categories"
         field:
           element: "text"
