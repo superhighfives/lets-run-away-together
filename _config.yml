@@ -14,6 +14,16 @@ defaults:
     meta: "Enter your subtitle"
     categories: "N/A"
     meta_display: true
+metadata:
+  _posts:
+    - name: layout
+      field:
+        element: hidden
+        value: post
+    - name: meta
+      field:
+        element: text
+        value: "So, what's the summary of the post?"
 markdown: kramdown
 exclude:
 - Gemfile
