@@ -38,10 +38,12 @@ prose:
         field:
           element: "text"
           label: "Categories"
+          placeholder: "music, gig, design"
       - name: "tags"
         field:
           element: "text"
           label: "Tags"
+          placeholder: "feature"
 markdown: kramdown
 exclude:
 - Gemfile
