@@ -11,8 +11,6 @@ defaults:
     type: posts
   values:
     layout: "post"
-    meta: "Enter your subtitle"
-    categories: "N/A"
     meta_display: true
 prose:
   rooturl: '_posts'
