@@ -10,21 +10,22 @@ defaults:
 - scope:
     type: posts
   values:
-    layout: post
+    layout: "post"
     meta: "Enter your subtitle"
     categories: "N/A"
     meta_display: true
 prose:
-  metadata:
-    _posts:
-      - name: layout
-        field:
-          element: hidden
-          value: post
-      - name: meta
-        field:
-          element: text
-          value: "So, what's the summary of the post?"
+  rooturl: '_posts'
+metadata:
+  _posts:
+    - name: "layout"
+      field:
+        element: "hidden"
+        value: "post"
+    - name: "meta"
+      field:
+        element: "text"
+        value: "So, what's the summary of the post?"
 markdown: kramdown
 exclude:
 - Gemfile
