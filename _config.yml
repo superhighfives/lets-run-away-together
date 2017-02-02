@@ -29,6 +29,11 @@ prose:
           element: "text"
           label: "Subtitle"
           placeholder: "So, what is the summary of the post?"
+      - name: "meta_display"
+        field:
+          element: "checkbox"
+          label: "Display the subtitle?"
+          value: true
 markdown: kramdown
 exclude:
 - Gemfile
