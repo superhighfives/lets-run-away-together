@@ -16,6 +16,8 @@ defaults:
     meta_display: true
 prose:
   rooturl: '_posts'
+  siteurl: 'https://letsrunawaytogether.com'
+  media: 'media'
   metadata:
     _posts:
       - name: "layout"
