@@ -16,7 +16,7 @@ defaults:
     meta_display: true
 prose:
   rooturl: '_posts'
-  siteurl: 'https://letsrunawaytogether.com'
+  siteurl: 'http://letsrunawaytogether.com'
   media: 'assets/images'
   metadata:
     _posts:
