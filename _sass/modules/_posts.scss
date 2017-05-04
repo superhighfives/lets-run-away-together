@@ -18,6 +18,7 @@
   }
   .posts__link {
     display: block;
+    margin-left: 7px;
     transition: border-bottom-color 0.3s;
     &:hover, &:active, &:focus {
       box-shadow: inset 0 0 0 rgba($color-salmon, 0.15);
@@ -34,8 +35,13 @@
       }
     }
   }
+  .posts__title {
+    display: inline-block;
+    padding: 3px 0 2px;
+  }
   .posts__details {
     padding-top: 0.5em;
+    padding-left: 7px;
     margin-bottom: 2em;
     color: $color-light-grey;
     transition: color 0.3s;
@@ -91,6 +97,9 @@
 
 .post {
   @extend .block;
+  hgroup {
+    margin-bottom: 0;
+  }
   .post__title {
     color: $brand-primary;
     border: 1px solid $brand-primary;
@@ -101,11 +110,15 @@
   }
   .post__date {
     color: $color-light-grey;
+    float: right;
   }
   .post__meta {
     background: darken($color-off-white, 5%);
-    padding: 0.5em;
+    padding: 0.5em 1em;
     display: inline-block;
+    font-size: 1.3125rem;
+    margin-bottom: 2rem;
+    // max-width: 500px;
   }
   .post__content {
     h1, h2, h3, h4, h5, h6 {
@@ -132,6 +145,9 @@
         font-size: 1em;
       }
     }
+    p, ol, ul, blockquote {
+      max-width: 500px;
+    }
   }
   .post__categories {
     @include type(10);
@@ -150,7 +166,7 @@
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 0;
-    padding-top: 8em;
+    padding-top: 2em;
     .paginator__item {
       &:first-child {
         -webkit-box-flex: 1;

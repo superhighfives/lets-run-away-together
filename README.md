@@ -8,8 +8,9 @@ Anything non-compilation on the dev side is fine though, which is why Browsersyn
 
 ## Fire it up
 
-- Run `npm install` (you'll need [Node](http://nodejs.org/).)
+- Run `npm install`
+- Run `bundle`
 - Run `cp -R node_modules/bootstrap-sass/assets/stylesheets/ _sass/bootstrap` to copy the latest `bootstrap-sass` stylesheets into `_sass` (Not ideal, obviously, but like I said, no compilation step. I guess it could have node_packages in the _sass directory, but it seems a bit bloaty? You tell me, new best friend.)
-- Run `gulp`
+- Run `bundle exec gulp`
 
 Any suggestions or feedback, let me know!

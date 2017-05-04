@@ -13,7 +13,7 @@ var messages = {
 gulp.task('jekyll-build', function (done) {
   browserSync.notify(messages.jekyllBuild);
   return cp.spawn('jekyll', ['build', '--drafts', '--config', ['_config.yml', '_config_dev.yml']], {stdio: 'inherit'})
-  .on('close', done);
+    .on('close', done);
 });
 
 /**
