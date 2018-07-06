@@ -51,16 +51,13 @@ fields:
   label: Hero
   config:
     maxSize: '5'
-- type: text
 pages:
 - _posts/2015-04-17-olafur-arnalds-at-iceland-airwaves.markdown
 - _posts/2015-04-22-winter-in-iceland.markdown
 - _posts/2015-04-18-highasakite-lover-where-do-you-live.markdown
 - _posts/2015-04-19-ori-and-the-blind-forest.markdown
 - _posts/2015-04-20-tim-shiel-duet-ost.markdown
-- _posts/2015-04-24-my-lovely-addiction.markdown
 - _posts/2015-04-28-antony-and-the-johnsons-on-jools-holland.markdown
-- _posts/2015-05-12-it-follows.markdown
 - _posts/2015-04-29-the-tallest-man-on-earth-dark-bird-is-home.markdown
 - _posts/2015-05-27-george-holiday.markdown
 - _posts/2015-06-04-jp-klipspringer-din-deafening.markdown
@@ -85,3 +82,5 @@ pages:
 - _posts/2016-03-29-your-gay-thoughts-to-disappear.markdown
 - _posts/2017-02-02-will-butler-anna.md
 - _posts/test.md
+- _posts/2015-04-24-my-lovely-addiction.markdown
+- _posts/2015-05-12-it-follows.markdown
