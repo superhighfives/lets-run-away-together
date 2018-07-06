@@ -104,18 +104,20 @@
     color: $brand-primary;
     border: 1px solid $brand-primary;
     display: inline-block;
-    padding: 0.5em 1em;
+    padding: 0.5rem 1rem;
     margin-bottom: 0;
     margin-right: 5px;
   }
   .post__date {
     color: $color-light-grey;
     float: right;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
   .post__meta {
     border: 1px solid transparent;
     background: darken($color-off-white, 5%);
-    padding: 0.5em 1em;
+    padding: 0.5rem 1rem;
     display: inline-block;
     font-size: 1.3125rem;
     margin-top: 0.5rem;
