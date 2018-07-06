@@ -29,6 +29,18 @@ fields:
   type: tag_list
   hidden: false
   default: ''
+- name: meta
+  label: Meta
+  type: textarea
+  hidden: false
+  default: ''
+  description: A short summary of the post
+- name: meta_display
+  label: Meta display
+  type: boolean
+  hidden: false
+  default: true
+  description: Display the meta sentence above the post
 - type: file
   name: banner
   label: Banner
@@ -39,17 +51,6 @@ fields:
   label: Hero
   config:
     maxSize: '5'
-- name: meta
-  label: Meta
-  type: textarea
-  hidden: false
-  default: ''
-  description: Display the meta sentence above the post
-- name: meta_display
-  label: Meta display
-  type: boolean
-  hidden: false
-  default: true
 - type: text
 pages:
 - _posts/2015-04-17-olafur-arnalds-at-iceland-airwaves.markdown
