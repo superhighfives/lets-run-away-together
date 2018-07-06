@@ -8,7 +8,6 @@ categories:
 banner: assets/images/will-butler-anna.jpg
 date: 2017-02-02 00:00:00 +0000
 tags: []
-hero: ''
 ---
 I'm pretty sure **Emma Stone** is the very, very best of us. Also, note to self, buy sailor suit.
 

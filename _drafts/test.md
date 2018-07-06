@@ -7,6 +7,5 @@ categories: []
 tags: []
 banner: assets/images/assets/images/Brightly---July-2018-Square.jpg
 meta: Meta!
-hero: ''
 ---
 This is a test.
