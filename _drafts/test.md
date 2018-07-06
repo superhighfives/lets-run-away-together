@@ -6,6 +6,8 @@ date: 2018-07-06 00:00:00 +0000
 categories: []
 tags: []
 banner: Brightly---July-2018-Square.jpg
-meta: ''
+meta: Meta!
 hero: ''
+undefined: ''
 ---
+This is a test.
