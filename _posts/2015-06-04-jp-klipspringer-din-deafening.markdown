@@ -2,7 +2,7 @@
 layout: post
 title: "JP Klipspringer - Din Deafening"
 categories: music
-banner: jp-klipspringer-din-deafening-hero.jpg
+banner: assets/images/jp-klipspringer-din-deafening-hero.jpg
 meta: "The sophmore EP from Melbourne superhero and all around nice guy Jack Poulson."
 ---
 

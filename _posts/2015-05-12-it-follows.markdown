@@ -2,7 +2,7 @@
 layout: post
 title: "It Follows"
 categories: films
-banner: it-follows-hero.jpg
+banner: assets/images/it-follows-hero.jpg
 meta: "Clever, creepy, captivating indie horror from director David Robert Mitchell."
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  Highasakite - Lover, Where Do You Live?
 categories: music
-banner: highasakite-lover-where-do-you-live-hero.jpg
+banner: assets/images/highasakite-lover-where-do-you-live-hero.jpg
 meta: Lush, original, striking indie pop.
 ---
 

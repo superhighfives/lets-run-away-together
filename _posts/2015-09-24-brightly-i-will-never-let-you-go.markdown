@@ -3,7 +3,7 @@ layout: post
 title: "Brightly - I Will Never Let You Go"
 categories: music
 meta: "Shameless self promotion."
-banner: iwnlyg-hero.jpg
+banner: assets/images/iwnlyg-hero.jpg
 ---
 
 I've spent the last six months working on an interactive WebGL music video, called **I Will Never Let You Go**.

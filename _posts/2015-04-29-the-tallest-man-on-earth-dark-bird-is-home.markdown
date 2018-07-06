@@ -2,7 +2,7 @@
 layout: post
 title: "The Tallest Man On Earth - Dark Bird Is Home"
 categories: music
-banner: dark-bird-is-home-hero.jpg
+banner: assets/images/dark-bird-is-home-hero.jpg
 meta: "Taken from the forthcoming record of the same name, \"Dark Bird Is Home\" is brilliant."
 ---
 

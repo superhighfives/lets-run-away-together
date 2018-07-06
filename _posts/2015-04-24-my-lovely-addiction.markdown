@@ -2,7 +2,7 @@
 layout: post
 title:  "My Lovely Addiction"
 categories: link
-hero: my-lovely-addiction-hero.jpg
+hero: assets/images/my-lovely-addiction-hero.jpg
 meta: "“Addiction, it seems, is a patient ghost who waits and watches until you’re comfortable in the arms of a new love, only to reach out and brush a finger along the back of your neck, whispering, ‘I’m still here.’”"
 meta_display: false
 ---

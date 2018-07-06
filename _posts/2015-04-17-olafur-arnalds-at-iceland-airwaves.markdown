@@ -3,7 +3,7 @@ layout: post
 title:  "Ólafur Arnalds at Iceland Airwaves"
 categories: gig
 tags: feature
-banner: olafur-arnalds-at-iceland-airwaves-hero.jpg
+banner: assets/images/olafur-arnalds-at-iceland-airwaves-hero.jpg
 meta: A stunning performance at Harpa in Reykjavík.
 ---
 

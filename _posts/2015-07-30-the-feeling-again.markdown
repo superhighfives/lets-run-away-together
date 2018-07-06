@@ -2,7 +2,7 @@
 layout: post
 title:  "Brendan Maclean - The Feeling Again"
 categories: music
-banner: the-feeling-again-hero.jpg
+banner: assets/images/the-feeling-again-hero.jpg
 meta: "“...it took a brilliant song by a brilliant artist like Brendan to show me I still have all my superpowers.”"
 meta_display: false
 ---
