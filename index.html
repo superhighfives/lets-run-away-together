@@ -9,7 +9,7 @@ layout: default
         <a class="posts__link {% if post.banner %}posts__link--has-banner{% endif %}" href="{{ post.url | prepend: site.baseurl }}">
           <span class="posts__title">{% if post.tags contains 'draft' %}DRAFT: {% endif %}{{ post.title }}</span>
         </a>
-        {% if post.banner %}<div class="posts__image" style="background-image: url({{ site.baseurl }}/assets/images/{{ post.banner }})"></div>{% endif %}
+        {% if post.banner %}<div class="posts__image" style="background-image: url({{ post.banner }})"></div>{% endif %}
         <div class="posts__details">
           <div class="posts__meta">{{ post.meta }} <span class="posts__wordcount">{{ post.content | number_of_words }} words</span></div>
           <span class="posts__categories">{{ post.categories }}</span>
