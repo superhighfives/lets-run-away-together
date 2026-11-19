@@ -1,16 +1,24 @@
 # Let's Run Away Together
 
-My personal artsy blog on music and culture and pretty pictures and stuff. Built with [Jekyll](http://jekyllrb.com/) and deployed directly to [Github Pages](https://pages.github.com/) via the `gh-pages` branch.
+My personal blog on art, design and music, written somewhere between London and Melbourne. Built with [Jekyll](https://jekyllrb.com/) and served by GitHub Pages from the `gh-pages` branch.
 
-I focussed on working within the limitations of Jekyll and Github Pages, which means no compilation step before deployment, and no fancy features (like autoprefixer). Ultimately, I wanted to be able to make changes direct to Github, without needing to compile it locally.
+Status: archived. Made in 2015, with the last post in 2017. Not maintained.
 
-Anything non-compilation on the dev side is fine though, which is why Browsersync features. Because it's awesome.
+Live: https://letsrunawaytogether.com/
 
-## Fire it up
+## Running it
 
-- Run `npm install`
-- Run `bundle`
-- Run `cp -R node_modules/bootstrap-sass/assets/stylesheets/ _sass/bootstrap` to copy the latest `bootstrap-sass` stylesheets into `_sass` (Not ideal, obviously, but like I said, no compilation step. I guess it could have node_packages in the _sass directory, but it seems a bit bloaty? You tell me, new best friend.)
-- Run `bundle exec gulp`
+```sh
+npm install
+bundle
+cp -R node_modules/bootstrap-sass/assets/stylesheets/ _sass/bootstrap
+bundle exec gulp
+```
 
-Any suggestions or feedback, let me know!
+The `cp` step copies the Bootstrap styles into `_sass`, since GitHub Pages builds the site without a compile step. `bundle exec gulp` builds the site with drafts and serves it with Browsersync. The tooling is old (Gulp 3), so it may need an older version of Node.
+
+## How it works
+
+- Posts live in `_posts`, with layouts, includes and styles in `_layouts`, `_includes` and `_sass`.
+- I wanted to be able to edit the site directly on GitHub, so there is no build step before deploying. GitHub Pages runs Jekyll itself.
+- `_config.yml` also holds settings for the Prose editor, and `.forestry` holds settings for Forestry, which I later used to edit posts.
